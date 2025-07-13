@@ -1,6 +1,6 @@
 spring:
   config:
-    import: optional:file:.env[.properties]
+    import: optional:file:.env.example[.properties]
   cache:
     type: redis
     cache-names: redis-cache

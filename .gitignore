@@ -33,3 +33,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Игнорировать .env файлы
+.env
+.env.*
+!.env.example  # если хотите оставить пример
