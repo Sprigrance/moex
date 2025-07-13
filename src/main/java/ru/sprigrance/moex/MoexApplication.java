@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableScheduling
 public class MoexApplication {
 
-    // Для чтения переменных в application.yaml из .env.example файла
+    // Для чтения переменных в application.yaml из .env файла
     static {
         Dotenv dotenv = Dotenv.configure().load();
         dotenv.entries().forEach(entry ->
